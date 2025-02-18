@@ -103,7 +103,7 @@ class UnixCrypt::CommandLine
       result = $stdin.noecho(&:gets)
     end
     $stderr.puts
-    result
+    +result
   end
 
   def password_warning
